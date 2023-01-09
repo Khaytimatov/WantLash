@@ -18,18 +18,18 @@
   }
 
 .swiper-slide:nth-child(1) {
-    background-image: url('./images/cover1__.jpg');
+    background-image: url('../images/cover1__.jpg');
 }
 
 .swiper-slide:nth-child(2) {
-    background-image: url('./images/___2.jpg');
+    background-image: url('../images/___2.jpg');
 }
 
 .swiper-slide:nth-child(3) {
-    background-image: url('./images/cover3.jpg');
+    background-image: url('../images/cover3.jpg');
 }
 
 .swiper-slide:nth-child(4) {
-    background-image: url('./images/cover4.jpg');
+    background-image: url('../images/cover4.jpg');
 }
 
