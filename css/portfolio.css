@@ -1,0 +1,98 @@
+
+
+#portfolio {
+    background-color: #f6d8c6;
+    color: #fff;   
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+}
+
+.page {
+    /* position: absolute; */
+    width: 100%;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    overflow: hidden;
+    flex: 1 1 auto;
+}
+.slider__wrapper {
+    display: flex;
+}
+.slider__slide {
+    flex-shrink: 0;
+}
+.slide {
+
+}
+.slide__body {
+    /* width: 60vh; */
+    margin: 0 auto;
+    max-width: 90vw;
+    box-shadow: 0 0 1.875rem rgba(0, 0, 0, 0.5);
+}
+.slide__image{
+    padding-bottom: 120%;
+    position: relative;
+    cursor: pointer;
+}
+.slide__picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+.background__wrapper {
+    min-height: 100%;
+    display: flex;
+}
+.background__slide {
+     min-height: 100%;
+     flex-shrink: 0;
+     position: relative;
+}
+.background__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.background__image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+}
+
+.portfolio__title {
+    text-align: center;
+    padding: 100px 0;
+    font-size: 36px;
+    color: grey;
+}

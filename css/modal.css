@@ -1,0 +1,125 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+:root{
+    --primary-color: linear-gradient(90deg, #cfecd0, #ffc5ca);
+    --secondary-color: linear-gradient(135deg, #E62B22, #eb5f22);
+    --accent-color: #0bc9f7;
+}
+
+.backdropActive {
+    opacity: 1;
+    z-index: 3;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+    width: 50%;
+    height: 70%;
+    scale: 0;
+    transition: 0.5s;
+    /* display: none; */
+    
+}
+
+.modalActive {
+    scale: 1;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #faf0cd, #fab397);
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.3);
+    
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 0 0;
+}
+
+.modalHeader {
+    background-color: #f6d8c6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 10%;
+    border-radius: 15px 15px 0 0;
+    
+}
+.inputMessage, .inputNumber{
+    width: 100%;
+    font-size: 0.7rem;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    color: #111;
+}
+
+.inputMessage:focus, .inputNumber:focus{
+    outline: none;
+    border: 2px solid var(--accent-color)
+}
+.modalApplyButton{
+    width: 100%;
+    background-color: #f6d8c6;
+    color: #111;
+    border-radius: 15px;
+    padding: 0.8em;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.modalApplyButton:hover{
+    background-color: #111;
+    color: #f6d8c6;
+}
+
+.modalContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    width: 50%;
+    height: 90%;
+}
+
+.hideContent {
+    display: none;
+}
+
+.thankYou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.modalCloseButton{
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

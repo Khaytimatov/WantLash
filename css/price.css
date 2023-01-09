@@ -1,0 +1,123 @@
+html {
+    font-size: 62,5%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 10px 15px;
+}
+
+#price {
+    padding: 100px 0;
+}
+
+.price__title{
+    text-align: center;
+    padding: 0 0 100px 0;
+    font-size: 36px;
+    color: grey;
+}
+.categories__box {
+    width: 300px;
+    height: 370px;
+    border: 3px inset white;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+    transition: all .5s ease-in-out;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: #8a8989;
+  }
+  .categories__box:hover {
+    transform: translateY(-5px);
+    transition: all .5s ease-in-out;
+  }
+
+.price__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.card-image img {
+    width: 100%;
+    height: 300px;
+    border-radius: 1.5rem 1.5rem 0 0;
+    object-position: center;
+    background-size: cover;
+}
+.categories__box :nth-child(3){
+    padding: 10px 0;
+}
+.categories__choise{
+    display: flex;
+    column-gap: 15px;
+}
+.categories__choise button {
+    padding: 10px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn {
+    width: 100%;
+    background-color: #f6d8c6;
+    color: #111;
+    border-radius: 15px;
+    padding: 0.8em;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.active {
+    background-color: black;
+    color: #f6d8c6;
+}
+
+.searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 40px;
+    padding: 2.3em;
+    background: whitesmoke;
+}
+
+.searchButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+    float: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.searchText{
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    padding: 0;
+    color: #111;
+    font-size: 1.3rem;
+    line-height: 4rem;
+    width: 0;
+    transition: 0.5s;
+}
+
+.searchBox:hover > .searchText {
+    width: 30vw;
+    padding: 0em 0.8em;
+    transition: 0.5s all ease-in-out;
+}

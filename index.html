@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Want Lash</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/sliderCover.css">
+    <link rel="stylesheet" href="./css/price.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/accordion.css">
+    <link rel="stylesheet" href="./css/burger.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <div class="backdrop-burger"></div>
+
+    <header id="header">
+        <div class="container">
+            <div class="header__nav">
+                <a href="#cover"><img src="./images/logoWL.png" alt="logo_pic"></a>
+                <h1>WANT LASH</h1>
+                <ul class="nav">
+                    <li class="nav__el"><a href="#cover">Акции</a></li>
+                    <li class="nav__el"><a href="#price">Цены</a></li>
+                    <li class="nav__el"><a href="#advantages">Преимущества</a></li>
+                    <li class="nav__el"><a href="#portfolio">Портфолио</a></li>
+                    <li class="nav__el"><a href="#footer">Контакты</a></li>
+                </ul>
+                <div class="mobile-btn">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="cover">
+        <div class="container cover__container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h1>Новогодняя акция!</h1>
+                        <p>Любой обьем стоит 1200 сомов</p>
+                        <button class="cover__button">Оставить заявку</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <h1>Want Lash студия</h1>
+                        <p>
+                            -Сертифицированный мастер<br>
+                            -Удобные кресла - реклайнеры<br>
+                            -Гарантия качества
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <h1>title</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus vitae expedita sint
+                            <br>
+                            laboriosam natus maiores consequatur quos doloribus. Delectus pariatur aliquam, obcaecati
+                            magnam dolores cumque.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <h1>title</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum neque hic reiciendis
+                            perspiciatis assumenda debitis, minus<br> esse, distinctio error eum temporibus amet
+                            perferendis
+                            vel adipisci ipsum voluptatibus vitae, molestiae labore.</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="backdrop">
+        <div class="modal">
+            <div class="modalHeader">
+                <h2>Заявка</h2>
+                <button class="modalCloseButton"><ion-icon name="close-circle-outline"></ion-icon></button>
+            </div>
+            <div class="text">
+                <p>Заполните пожалуйста контактную информацию</p>
+            </div>
+            <form class="modalContent">
+                <input type="text" class="inputMessage" placeholder="Ваше имя...">
+                <input type="number" class="inputNumber" placeholder="Номер телефона...">
+                <button class="modalApplyButton">Оставить заявку</button>
+            </form>
+            <div class="thankYou">
+
+            </div>
+        </div>
+    </div>
+
+    <section id="price">
+        <div class="container">
+            <h1 class="price__title">Цены на услуги</h1>
+            <div class="price__header">
+                <div class="categories__choise"></div>
+                <div class="searchBox">
+                    <input type="text" class="searchText" placeholder="Введите для поиска">
+                    <a href="#price">
+                        <ion-icon class="searchButton" name="search"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="row output">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="advantages">
+        <div class="container">
+            <h1 class="advantages__title">Почему Want Lash?</h1>
+            <div class="advantages__wrap">
+                <div class="accordion"></div>
+                <img class="pic"
+                    src="https://thumb.tildacdn.com/tild3137-6538-4163-b861-666634353131/-/format/webp/iStock-853457558_.jpg"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+        <h1 class="portfolio__title">Мои работы</h1>
+        <div class="wrapper">
+            <main class="page">
+                <div class="slider swiper">
+                    <div class="slider__wrapper swiper-wrapper">
+                        <div class="slider__slide slide swiper-slide">
+                            <div class="slide__body">
+                                <div class="slide__image">
+                                    <img data-title="Классика" class="slide__picture" src="./images/01.jpg" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__slide slide swiper-slide">
+                            <div class="slide__body">
+                                <div class="slide__image">
+                                    <img data-title="Двойной обьем" class="slide__picture" src="./images/02.jpg"
+                                        alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__slide slide swiper-slide">
+                            <div class="slide__body">
+                                <div class="slide__image">
+                                    <img data-title="Тройной обьем" class="slide__picture" src="./images/03.jpg"
+                                        alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__slide slide swiper-slide">
+                            <div class="slide__body">
+                                <div class="slide__image">
+                                    <img data-title="Галивуд 4D" class="slide__picture" src="./images/04.jpg"
+                                        alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__slide slide swiper-slide">
+                            <div class="slide__body">
+                                <div class="slide__image">
+                                    <img data-title="Кукольный эффект" class="slide__picture" src="./images/05.jpg"
+                                        alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__scrollbar"></div>
+                </div>
+            </main>
+        </div>
+
+
+    </section>
+
+    <section id="footer">
+        <footer class="footer">
+            <div class="footer__container">
+                <h3 class="footer__title"> <span>Want</span> Lash</h3>
+                <span class="footer__subtitle">Мои актуальные контакты для связи со мной</span>
+                <div class="footer__socials">
+                    <div class="footer__social">
+                        <a target="_blank" href="https://www.whatsapp.com/?lang=ru"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </div>
+                    <div class="footer__social">
+                        <a target="_blank" href="https://www.google.com/intl/ru/gmail/about/"><ion-icon name="mail"></ion-icon></a>
+                    </div>
+                    <div class="footer__social">
+                        <a target="_blank" href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                    <div class="footer__social">
+                       <a target="_blank" href="https://vk.com/"><ion-icon name="logo-vk"></ion-icon></a> 
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> -->
+    <script src="./js/sliderCover.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/portfolio.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/price.js"></script>
+    <script src="./js/burger.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

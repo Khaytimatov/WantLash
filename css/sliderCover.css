@@ -1,0 +1,35 @@
+
+
+#cover .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 30px;
+    padding-left: 100px;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide:nth-child(1) {
+    background-image: url('/images/cover1__.jpg');
+}
+
+.swiper-slide:nth-child(2) {
+    background-image: url('/images/___2.jpg');
+}
+
+.swiper-slide:nth-child(3) {
+    background-image: url('/images/cover3.jpg');
+}
+
+.swiper-slide:nth-child(4) {
+    background-image: url('/images/cover4.jpg');
+}
+
